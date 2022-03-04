@@ -593,7 +593,7 @@ module.exports = {
 
               let lea = await (await fetch(fla + `GOOD BYE`)).buffer()
 
-              conn.send2ButtonLoc(jid, action === 'add' ? wel : lea, text, action === 'add' ? '*WELCOME TO GROUP ✨*' : '*YEY NASI KOTAK 😈*', '⋮☰ Menu', '#menu', 'Info Grup', '.infogc', false, {
+              conn.send2ButtonLoc(jid, action === 'add' ? wel : lea, text, action === 'add' ? '*WELCOME TO GROUP ✨*' : '*YEY NASI KOTAK :v*', '⋮☰ Menu', '#menu', 'Info Grup', '.infogc', false, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
