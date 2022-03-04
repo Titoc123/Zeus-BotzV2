@@ -10,8 +10,8 @@ let handler = async (m, { conn }) => {
 
     let str = `
 ┌─〔 Info Botz 〕
-│Name: ZeusBotz
-│Main Owner: Pilar
+│Name: RiftoBotz
+│Main Owner: Rifto
 │Operated Since: 19 September 2021
 │Language Used: Nodejs (JS)
 │Server: Heroku
@@ -40,7 +40,7 @@ let handler = async (m, { conn }) => {
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© ZeusBotz ', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© RiftoBotz ', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
